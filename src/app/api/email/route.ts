@@ -39,7 +39,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
-// Configure your SMTP settings (replace with your actual SMTP details)
+// Configure your SMTP settings
 const transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
   port: 587,

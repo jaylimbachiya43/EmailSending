@@ -1,9 +1,9 @@
-import Image from "next/image";
+import EmailForm from "@/components/Form";
 
 export default function Home() {
   return (
     <main>
-      
+      <EmailForm />
     </main>
   );
 }
